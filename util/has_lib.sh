@@ -46,6 +46,7 @@ case "$1" in
   pango)
     has_pkgconfig_lib "pango" > /dev/null
     result=$?
+    result=1
     ;;
   freetype)
     has_freetype > /dev/null
